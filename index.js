@@ -1,7 +1,7 @@
 const { Client } = require('klasa');
 const { config} = require('./config');
 const token = process.env.token;
-
+Client.login(token).catch(err => console.log(err));
 class MyKlasaClient extends Client {
 
     constructor(...args) {
