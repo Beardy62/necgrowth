@@ -19,7 +19,7 @@ exports.config = {
     restTimeOffset: 500,
     disabledEvents: [],
     // A presence to login with
-    presence: { activity: { name: 'Discord grow', type: 'WATCHING' } },
+    presence: { activity: { name: 'The Cult Rise', type: 'WATCHING' } },
     // A once ready message for your console
     readyMessage: (client) => `Successfully initialized. Ready to serve ${client.guilds.size} guilds.`,
 
@@ -44,7 +44,7 @@ exports.config = {
      */
     commandEditing: false,
     commandLogging: true,
-    typing: false,
+    typing: true,
 
     /**
      * Database Options
