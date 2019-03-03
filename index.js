@@ -1,5 +1,6 @@
 const { Client } = require('klasa');
-const { config, token } = require('./config');
+const { config} = require('./config');
+const token = process.env.token;
 
 class MyKlasaClient extends Client {
 
