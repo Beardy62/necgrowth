@@ -9,10 +9,10 @@ module.exports = {
             "color": color,
             "footer": {
                 "icon_url": ownerIcon,
-                "text": "Bot created by @Ottomated#9999"
+                "text": "Bot created by Beardy629"
             },
             "author": {
-                "name": `Growth Tracker${title.length > 0 ? ': ' : ''}${title}`,
+                "name": `Nec Tracker${title.length > 0 ? ': ' : ''}${title}`,
                 "icon_url": botIcon
             },
         };
@@ -29,7 +29,7 @@ module.exports = {
             "color": 14703196,
             "footer": {
                 "icon_url": ownerIcon,
-                "text": "Bot created by @Ottomated#9999"
+                "text": "Bot created by Beardy62"
             },
             "title": error,
             "description": '<a:error:398684450973810689> ' + description,
