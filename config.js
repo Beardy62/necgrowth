@@ -173,4 +173,4 @@ exports.config = {
 };
 
 // The token for this bot to login with
-exports.token = require('./token.json').token;
+exports.token = 'NDE1NTg3NjM1MTA1MzY2MDE2.XKPCFw.r8XS2ElUjn5Fb6dSnDYp2lQgTt0'
